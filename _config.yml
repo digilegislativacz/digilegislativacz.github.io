@@ -1,0 +1,88 @@
+remote_theme: rohanchandra/type-theme
+
+# SITE CONFIGURATION
+baseurl: "/"
+url: "https://digilegislativacz.github.io/"
+
+
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  site_navigation_sort: "order"
+  # Meta
+  title: digilegislativa.cz
+  avatar: assets/img/avatar.png
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "Digitálně přívětivá legslativa a Digitální legislativa pro 21. století"
+
+  # Header and footer text
+  header_text: >
+
+  header_text_feature_image:
+  footer_text: >
+    <p>© 2020 digilegislativa.cz a michalrada.cz</p>
+
+  # Icons
+  rss: true
+  email_address: 
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: 
+  flickr:
+  gitlab:
+  github: 
+  gitter:
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: 
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+  search: true # Enable the search feature
+
+  # Localization strings
+  str_follow_on: "Najdi mě na"
+  str_rss_follow: "RSS"
+  str_email: "Email"
+  str_next_post: "Další článek"
+  str_previous_post: "Předchozí článek"
+  str_next_page: "Další stránka"
+  str_previous_page: "Předchozí stránka"
+  str_continue_reading: "➡ Číst dál..."
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "😢 Nic jsme nenašli."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 10
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
+exclude:
+  - Gemfile
+  - Gemfile.lock
