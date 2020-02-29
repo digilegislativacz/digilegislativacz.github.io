@@ -10,6 +10,7 @@ layout: default
   </div>
   {% endif %}
 
+<div>{{ content }}</div>
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
@@ -19,7 +20,6 @@ layout: default
             {{ post.title }}
           </a>
         </h3>
-        <p class="meta">
     <p class="meta">
 📅      {{ page.date | date: "%-d.%-m.%Y" }}
       {% if page.author %} / 👤 {{ page.author }}{% endif %}
