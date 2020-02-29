@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Rewriting portálu digilegislativa.cz začíná
 subtitle: <ul><li>Jsme nuceni trochu omezovat zdroje, ale nechceme vás připravit o obsah.<li>Přecházíme na github i s naším webovým portálem.</ul>
 tags: [digilegislativa.cz, Redakce]
