@@ -2,7 +2,7 @@ remote_theme: rohanchandra/type-theme
 
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://digilegislativacz.github.io/"
+url: "https://digilegislativa.github.io/"
 
 
 
@@ -14,18 +14,18 @@ theme_settings:
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "Digitálně přívětivá legslativa a Digitální legislativa pro 21. století"
+  description: "digilegislativa.cz"
 
   # Header and footer text
   header_text: >
-
+      <p>Seznam článků na našem webu</p>
   header_text_feature_image:
   footer_text: >
-    <p>© 2020 digilegislativa.cz a michalrada.cz</p>
+    <p>© 2020 digilegislativa.cz</p>
 
   # Icons
   rss: true
-  email_address: 
+  email_address: "digilegislativa@gmail.com"  # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -55,22 +55,22 @@ theme_settings:
 
   # Localization strings
   str_follow_on: "Najdi mě na"
-  str_rss_follow: "RSS"
+  str_rss_follow: "Do tvojí RSS čtečky"
   str_email: "Email"
-  str_next_post: "Další článek"
-  str_previous_post: "Předchozí článek"
+  str_next_post: "Další příspěvek"
+  str_previous_post: "Předchozí příspěvek"
   str_next_page: "Další stránka"
   str_previous_page: "Předchozí stránka"
-  str_continue_reading: "➡ Číst dál..."
+  str_continue_reading: "Celý příspěvek..."
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
-  str_search_no_results: "😢 Nic jsme nenašli."
+  str_search_no_results: "Nic jsme nenašli."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 10
