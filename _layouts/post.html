@@ -11,7 +11,9 @@ layout: default
   </header>
 <main>  <section class="post-content">
 <p><b>    {% if page.subtitle %} {{ page.subtitle }}{% endif %}</b></p>{{ content }}</section>
+{% if page.odkaz %}<p>Více na <a href="{{ page.odkaz }}">{{ page.odkaz }}</a>{% endif %}
 </main>
+{% if page.zdroj %}<p><i>Zdroj: {{ page.zdroj }} </i></p>{% endif %}
 <p>📁   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 </article>
 
